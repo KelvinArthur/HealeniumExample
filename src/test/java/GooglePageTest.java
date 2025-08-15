@@ -12,6 +12,7 @@ public class GooglePageTest {
 
         WebDriver delegate = new ChromeDriver();
         SelfHealingDriver driver = SelfHealingDriver.create((WebDriver) delegate);
+        driver.manage().window().maximize();
         driver.get("https://www.google.com");
         driver.findElement(By.xpath("//a[text()='About']")).click();
 
