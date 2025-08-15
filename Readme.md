@@ -1,0 +1,2 @@
+-Make sure to install docker first before moving to the next step.
+-Go to infra folder and open a terminal from there and use this command: docker-compose up -d
